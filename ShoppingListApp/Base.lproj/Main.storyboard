@@ -254,6 +254,9 @@
                                 <state key="normal" title="RESET">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ov5-bI-FyC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATY-2F-R8j">
                                 <rect key="frame" x="283" y="199" width="170" height="35"/>
@@ -266,6 +269,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="ListFive" destination="HRe-d1-KTU" id="MEe-lk-Pda"/>
+                        <outlet property="ListFour" destination="MNY-3s-d9q" id="PPI-v6-3JM"/>
+                        <outlet property="ListName" destination="012-Qu-1UY" id="LFZ-aX-q7W"/>
+                        <outlet property="ListOne" destination="jyA-jq-TAC" id="0q3-m3-bIy"/>
+                        <outlet property="ListThree" destination="l9n-4T-Iji" id="J92-cK-pvz"/>
+                        <outlet property="ListTwo" destination="c5K-Sg-QUs" id="Kxt-CX-Xft"/>
+                        <outlet property="Stepper0" destination="Ygg-Q8-yiU" id="kW3-JV-zGB"/>
+                        <outlet property="Stepper1" destination="BMu-31-YeG" id="zAk-Vd-OBB"/>
+                        <outlet property="Stepper2" destination="H5F-BG-dRR" id="jTL-aP-i7C"/>
+                        <outlet property="Stepper3" destination="88a-gt-lNc" id="GQv-dW-DL3"/>
+                        <outlet property="Stepper4" destination="WIL-cK-VCq" id="2Od-1w-DjS"/>
                         <outlet property="ValueLabel1" destination="4gQ-U6-d2n" id="ga3-Kg-sNG"/>
                         <outlet property="ValueLabel2" destination="bj1-kQ-VCd" id="CST-Qb-0KA"/>
                         <outlet property="ValueLabel3" destination="A06-G9-yeZ" id="ZMB-Ba-XB8"/>
